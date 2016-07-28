@@ -1,0 +1,9 @@
+<project basedir="." default="delete folder" name="AntDemo">
+	<target name="Create Folder">
+		<mkdir dir="Result"/>	
+	</target>
+	
+   <target name="delete folder" depends="Create Folder">
+   	<delete  dir = "Result"/>
+	</target>
+</project>

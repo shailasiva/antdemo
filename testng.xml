@@ -1,0 +1,10 @@
+
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.pac.DemoA"/>
+      <class name="com.pac.DemoC"/>
+      <class name="com.pac.DemoB"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
